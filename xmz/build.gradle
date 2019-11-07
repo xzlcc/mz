@@ -51,10 +51,10 @@ uploadArchives {
         }
         pom.project {
             // 注意：这里要修改一下你的库。比如：com.baidu:lib:1.0.0
-            groupId 'com.mz.xmz'
+            groupId 'com.xzl.cc'
             artifactId 'xmz'
-            version '1.0.0'
-            packaging 'aar'
+            version '1.0.2'
+//            packaging 'aar'
         }
     }
 

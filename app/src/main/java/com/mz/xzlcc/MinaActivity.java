@@ -6,6 +6,8 @@ import android.os.PersistableBundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.mz.xmz.utils.TextUtil;
+
 public class MinaActivity extends AppCompatActivity {
 
     @Override
@@ -14,6 +16,13 @@ public class MinaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
+        String str = "ss";
+        if(TextUtil.isEmpty(str)){
+            str="1";
+        }else{
+            str="2";
+        }
 
 
     }
